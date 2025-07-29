@@ -115,7 +115,6 @@
 
 # definieer een functie
 def evenheid(getal):
-  
 # return een string
 
 # Wanneer is een getal even
@@ -127,7 +126,7 @@ def evenheid(getal):
 
 # print(evenheid(3))
   getal = input("Kies je getal: ")
-  print(evenheid(getal))
+  print(evenheid(int(getal))
 
 
 # woord = input("Kies een woord: ")
