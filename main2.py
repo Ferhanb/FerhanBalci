@@ -62,7 +62,3 @@
 antwoord = input("Wat wil  je doen? ")
 berekening = {"plus" : ["Optellen", "+"], "min" : ["-", "min", "aftrekken"]}
 
-if antwoord in berekening:
-  print("Goedzo")
-else:
-  print("Er gaat wat fout!")
