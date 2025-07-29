@@ -155,3 +155,14 @@ print(a) # Alles kleine letters maken
 
 b = tekst.center(20)
 print(b)
+
+
+
+# if "Optellen" or "+" or "plus" in vraag:
+#   z = x + y
+# elif "Aftrekken" or "min" or "-" in vraag:
+#   z = x - y
+# elif "Vermenigvuldigen" or "keer" or "*" in vraag:
+#   z = x * y
+# elif "Delen" or ":" or "/" in vraag:
+#   z = x / y
