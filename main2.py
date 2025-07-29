@@ -85,13 +85,53 @@
 # Append methode
 # Kwadraat van getallen
 
-for getal in range(0,50):
-  # print(getal)
-  if getal%3 and getal%5:
-    print("Fizzbuzz")
-  elif getal%5:
-    print("Buzz")
-  elif getal%3:
-    print("Fizz")
-  else:
-    print(getal)
+# for getal in range(0,50):
+#   # print(getal)
+#   if getal%3 == 0 and getal%5 == 0:
+#     print("Fizzbuzz")
+#   elif getal%5 == 0:
+#     print("Buzz")
+#   elif getal%3 == 0:
+#     print("Fizz")
+#   else:
+#     print(getal)
+
+
+# Opdracht 20
+
+# definieer een functie
+# getal = int(input("Wat is je getal?: "))
+# # return een string
+  
+# # Wanneer is een getal even
+# if getal % 2 == 0:
+#     print("Even")
+# # Wanneer is een getal oneven
+# elif getal % 1 == 0:
+#     print("Oneven")
+# else:
+#     print("Is dit geen getal?")
+
+
+# definieer een functie
+def evenheid(getal):
+  
+# return een string
+
+# Wanneer is een getal even
+  if getal % 2 == 0:
+    return "Even"
+# Wanneer is een getal oneven
+  elif getal % 1 == 0:
+    return "Oneven"
+
+# print(evenheid(3))
+  getal = input("Kies je getal: ")
+  print(evenheid(getal))
+
+
+# woord = input("Kies een woord: ")
+
+# for letters in woord:
+  
+#   print()
