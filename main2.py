@@ -114,23 +114,58 @@
 
 
 # definieer een functie
-def evenheid(getal):
-# return een string
+# def evenheid(getal):
+# # return een string
 
-# Wanneer is een getal even
-  if getal % 2 == 0:
-    return "Even"
-# Wanneer is een getal oneven
-  elif getal % 1 == 0:
-    return "Oneven"
+# # Wanneer is een getal even
+#   if getal % 2 == 0:
+#       return "Even"
+# # Wanneer is een getal oneven
+#   else:
+#       return "Oneven"
+# # print(evenheid(3))
+# getal = input("Kies je getal: ")
+# print(evenheid(int(getal)))
 
-# print(evenheid(3))
-  getal = input("Kies je getal: ")
-  print(evenheid(int(getal))
+# opdracht 20b
+
+def klinkers(zin):
+  klinkers_alfabet = "aeoiu"
+  teller = 0
+  for letter in zin.lower():
+    if letter in klinkers_alfabet:
+      teller = teller + 1
+  return(teller)
+
+print(klinkers("DIt is een voorbeeldzin"))
 
 
-# woord = input("Kies een woord: ")
+# # woord = "Jouw naam"
+# # for x in woord:
+# #   print(x)
 
-# for letters in woord:
+
+# Opdracht 20
+
+# def som(lijst):
+#   som = 0
+#   for cijfer in lijst:
+#     if cijfer > 0:
+#       som = som + cijfer
+#   return som
   
-#   print()
+# print(som([20, 30, 40]))
+
+
+# # Opdracht 21
+
+# def som_tot_getal(getal):
+#   begin_getal = 1
+#   som = 0
+#   while begin_getal != getal: # of <= getal # of getal + 1
+#     som = som + begin_getal
+#     begin_getal = begin_getal + 1
+#   som = som + getal
+#   return som
+    
+# print(som_tot_getal(10))
