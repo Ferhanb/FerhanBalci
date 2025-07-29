@@ -2,21 +2,21 @@
 
 # In deze code zie je dat ik if, elif en else statements kan gebruiken.
 
-getal = 2
+# getal = 2
 
-if getal > 0:
-  print("Dit getal is positief.")
-elif getal < 0;
-  print("Dit getal is kleiner dan 0.")
-elif getal == 0:
-  print("Dit getal is gelijk aan 0.")
-else:
-  print("Dit is misschien geen getal?")
+# if getal > 0:
+#   print("Dit getal is positief.")
+# elif getal < 0;
+#   print("Dit getal is kleiner dan 0.")
+# elif getal == 0:
+#   print("Dit getal is gelijk aan 0.")
+# else:
+#   print("Dit is misschien geen getal?")
 
 # Opdracht 15
 
 # # Vraag gebruiker waar hij/zij vandaan komt
-# land = input("Where do you come from? ") .strip().capitalize()
+# land = input("Where do you come from? ").strip().capitalize()
 # # Maak een lijst met landen waar ze vandaan kunnen komen
 
 # # Begroet de gebruiker
@@ -31,7 +31,7 @@ else:
 # else:
 #   print("Probeer opnieuw")
 
-# # In dit voorbeeld zie je dat het antwoord hoofdlettergevoelig is. En als de gebruiker hetzelfde land in een andere taal invoert, herkent het programma dit woord niet.
+# # In dit voorbeeld zie je dat het antwoord hoofdlettergevoelig is. En als de gebruiker hetzelfde land in een andere taal invoert, herkent het programma dit woord niet. Gebruik .capitalize(), zodat het programma de eerste letter Hoofdletter maakt en alle andere letters kleine letters worden.
 
 
 # # Opdracht 16
@@ -57,4 +57,12 @@ else:
 # # Print het antwoord in een zin.
 # print(f"Het antwoord van de berekening is: {z}")
 
+## Dictionary versie voor opdracht 16
 
+antwoord = input("Wat wil  je doen? ")
+berekening = {"plus" : ["Optellen", "+"], "min" : ["-", "min", "aftrekken"]}
+
+if antwoord in berekening:
+  print("Goedzo")
+else:
+  print("Er gaat wat fout!")
