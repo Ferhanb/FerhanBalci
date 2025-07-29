@@ -51,6 +51,8 @@ elif "Vermenigvuldigen" or "keer" or "*" in vraag:
   z = x * y
 elif "Delen" or ":" or "/" in vraag:
   z = x / y
+else: 
+  print("Verkeerd")
 
 # Print het antwoord in een zin.
 print(f"Het antwoord van de berekening is: {z}")
