@@ -33,30 +33,25 @@
 
 # # In dit voorbeeld zie je dat het antwoord hoofdlettergevoelig is. En als de gebruiker hetzelfde land in een andere taal invoert, herkent het programma dit woord niet. Gebruik .capitalize(), zodat het programma de eerste letter Hoofdletter maakt en alle andere letters kleine letters worden.
 
-# # Opdracht 16
-# # Vraag de gebruiker welke operation hij wil uitvoeren
-# vraag = input("Wat wil je doen? ")
-# # Vraag twee getallen
+# Opdracht 16
+# Vraag de gebruiker welke operation hij wil uitvoeren
+vraag = input("Wat wil je doen? ")
+# Vraag twee getallen
 
-# x = int(input("Kies eerste getal: "))
-# y = int(input("Kies tweede getal: "))
+x = int(input("Kies eerste getal: "))
+y = int(input("Kies tweede getal: "))
 
-# # Doe de berekening
-# if "Optellen" in vraag or "+" in vraag or "plus" in vraag:
-#   z = x + y
-# elif "Aftrekken" in vraag or "min" in vraag or "-" in vraag:
-#   z = x - y
-# elif "Vermenigvuldigen" in vraag or "keer" in vraag or "*" in vraag:
-#   z = x * y
-# elif "Delen" in vraag or ":" in vraag or "/" in vraag:
-#   z = x / y
-# else:
-#   print("Verkeerd")
+# Doe de berekening
+if "Optellen" in vraag or "+" in vraag or "plus" in vraag:
+  z = x + y
+elif "Aftrekken" in vraag or "min" in vraag or "-" in vraag:
+  z = x - y
+elif "Vermenigvuldigen" in vraag or "keer" in vraag or "*" in vraag:
+  z = x * y
+elif "Delen" in vraag or ":" in vraag or "/" in vraag:
+  z = x / y
+else:
+  print("Verkeerd")
 
 # # Print het antwoord in een zin.
 # print(f"Het antwoord van de berekening is: {z}")
-
-## Dictionary versie voor opdracht 16
-
-antwoord = input("Wat wil  je doen? ")
-berekening = {"plus": ["Optellen", "+"], "min": ["-", "min", "aftrekken"]}
