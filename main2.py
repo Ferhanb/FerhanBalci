@@ -33,7 +33,6 @@
 
 # # In dit voorbeeld zie je dat het antwoord hoofdlettergevoelig is. En als de gebruiker hetzelfde land in een andere taal invoert, herkent het programma dit woord niet. Gebruik .capitalize(), zodat het programma de eerste letter Hoofdletter maakt en alle andere letters kleine letters worden.
 
-
 # # Opdracht 16
 # # Vraag de gebruiker welke operation hij wil uitvoeren
 # vraag = input("Wat wil je doen? ")
@@ -51,7 +50,7 @@
 #   z = x * y
 # elif "Delen" in vraag or ":" in vraag or "/" in vraag:
 #   z = x / y
-# else: 
+# else:
 #   print("Verkeerd")
 
 # # Print het antwoord in een zin.
@@ -60,5 +59,4 @@
 ## Dictionary versie voor opdracht 16
 
 antwoord = input("Wat wil  je doen? ")
-berekening = {"plus" : ["Optellen", "+"], "min" : ["-", "min", "aftrekken"]}
-
+berekening = {"plus": ["Optellen", "+"], "min": ["-", "min", "aftrekken"]}
